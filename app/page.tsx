@@ -102,7 +102,10 @@ export default function Home() {
           <h1 id="hero-title">Fé que acolhe.<br />Esperança que reúne.</h1>
           <p className="hero-copy">Um lugar de oração, encontro e serviço para caminhar com Cristo em São Miguel do Araguaia.</p>
           <div className="hero-actions">
-            <a className="button button-primary" href="#missas">Horários das missas <span aria-hidden="true">→</span></a>
+            <div className="hero-quick-links">
+              <a className="button button-primary" href="#missas">Horários das missas <span aria-hidden="true">→</span></a>
+              <a className="button button-liturgia" href="https://sagradaliturgia.com.br/" target="_blank" rel="noreferrer">Liturgia diária e homilias <span aria-hidden="true">↗</span></a>
+            </div>
             <a className="button button-quiet" href="#contato">Fale conosco</a>
           </div>
         </div>
