@@ -4,7 +4,7 @@ Site institucional da Paróquia São Miguel Arcanjo, em São Miguel do Araguaia 
 
 ## Acesse o site
 
-O endereço de publicação desta nova versão será informado aqui após a conclusão do deploy.
+[https://paroquia-sao-miguel.frederico.chatgpt.site](https://paroquia-sao-miguel.frederico.chatgpt.site)
 
 ## Conteúdo
 
