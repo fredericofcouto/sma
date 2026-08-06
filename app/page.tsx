@@ -238,7 +238,7 @@ export default function Home() {
             <a className="social-instagram" href="https://www.instagram.com/paroquiasaomiguelarcanjo.sma/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
               <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4" /><circle cx="12" cy="12" r="3.5" /><circle cx="17.2" cy="6.8" r=".8" fill="currentColor" stroke="none" /></svg>
             </a>
-            <a className="social-youtube" href="https://www.youtube.com/c/ParoquiaSaoMiguelArcanjo" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+            <a className="social-youtube" href="https://www.youtube.com/@paroquiasaomiguelarcanjosma" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path className="youtube-mark" d="M21.58 7.19a2.94 2.94 0 0 0-2.07-2.08C17.68 4.6 12 4.6 12 4.6s-5.68 0-7.51.51a2.94 2.94 0 0 0-2.07 2.08A30.4 30.4 0 0 0 1.9 12a30.4 30.4 0 0 0 .52 4.81 2.94 2.94 0 0 0 2.07 2.08c1.83.51 7.51.51 7.51.51s5.68 0 7.51-.51a2.94 2.94 0 0 0 2.07-2.08A30.4 30.4 0 0 0 22.1 12a30.4 30.4 0 0 0-.52-4.81Z" /><path d="M10 8.8v6.4l5.5-3.2L10 8.8Z" className="social-play" /></svg>
             </a>
             <a className="social-whatsapp" href="https://wa.me/5562982717499" target="_blank" rel="noreferrer" aria-label="WhatsApp" title="WhatsApp">
