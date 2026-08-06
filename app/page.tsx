@@ -233,16 +233,16 @@ export default function Home() {
           </div>
           <div className="socials" aria-label="Redes sociais">
             <a className="social-facebook" href="https://www.facebook.com/ParoqSaoMiguelArcanjo/" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" /></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" className="facebook-mark" /><path className="social-glyph" d="M13.7 20v-7h2.4l.4-2.8h-2.8V8.4c0-.8.3-1.4 1.5-1.4h1.6V4.5c-.3 0-1.1-.1-2.1-.1-2.1 0-3.5 1.3-3.5 3.6v2.2H9v2.8h2.2v7h2.5Z" /></svg>
             </a>
             <a className="social-instagram" href="https://www.instagram.com/paroquiasaomiguelarcanjo.sma/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4" /><circle cx="12" cy="12" r="3.5" /><circle cx="17.2" cy="6.8" r=".8" fill="currentColor" stroke="none" /></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" className="instagram-mark" /><rect x="7.2" y="7.2" width="9.6" height="9.6" rx="3" className="social-glyph" /><circle cx="12" cy="12" r="2.4" className="instagram-lens" /><circle cx="17.2" cy="6.8" r="1" className="instagram-dot" /></svg>
             </a>
             <a className="social-youtube" href="https://www.youtube.com/@paroquiasaomiguelarcanjosma" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path className="youtube-mark" d="M21.58 7.19a2.94 2.94 0 0 0-2.07-2.08C17.68 4.6 12 4.6 12 4.6s-5.68 0-7.51.51a2.94 2.94 0 0 0-2.07 2.08A30.4 30.4 0 0 0 1.9 12a30.4 30.4 0 0 0 .52 4.81 2.94 2.94 0 0 0 2.07 2.08c1.83.51 7.51.51 7.51.51s5.68 0 7.51-.51a2.94 2.94 0 0 0 2.07-2.08A30.4 30.4 0 0 0 22.1 12a30.4 30.4 0 0 0-.52-4.81Z" /><path d="M10 8.8v6.4l5.5-3.2L10 8.8Z" className="social-play" /></svg>
             </a>
             <a className="social-whatsapp" href="https://wa.me/5562982717499" target="_blank" rel="noreferrer" aria-label="WhatsApp" title="WhatsApp">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.8 7.4L3.5 20l.9-4a8.5 8.5 0 1 1 16.1-4.3Z" /><path d="M9.2 8.2c.2-.3.4-.3.7-.3h.5c.2 0 .4.1.5.4l.6 1.5c.1.2.1.4-.1.6l-.5.7c.5 1 1.3 1.7 2.3 2.2l.7-.5c.2-.1.4-.2.6-.1l1.5.7c.2.1.3.3.3.5v.5c0 .3-.1.5-.3.7-.4.3-.8.5-1.3.5-1.1 0-2.5-.7-3.8-1.9-1.3-1.2-2.1-2.6-2.1-3.7 0-.5.2-1 .4-1.3Z" /></svg>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" className="whatsapp-mark" /><path className="whatsapp-glyph" d="M9.2 8.2c.2-.3.4-.3.7-.3h.5c.2 0 .4.1.5.4l.6 1.5c.1.2.1.4-.1.6l-.5.7c.5 1 1.3 1.7 2.3 2.2l.7-.5c.2-.1.4-.2.6-.1l1.5.7c.2.1.3.3.3.5v.5c0 .3-.1.5-.3.7-.4.3-.8.5-1.3.5-1.1 0-2.5-.7-3.8-1.9-1.3-1.2-2.1-2.6-2.1-3.7 0-.5.2-1 .4-1.3Z" /></svg>
             </a>
           </div>
         </div>
