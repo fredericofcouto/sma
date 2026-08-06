@@ -232,10 +232,18 @@ export default function Home() {
             <p>São Miguel do Araguaia · Goiás</p>
           </div>
           <div className="socials" aria-label="Redes sociais">
-            <a href="https://www.facebook.com/ParoqSaoMiguelArcanjo/" target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
-            <a href="https://www.instagram.com/paroquiasaomiguelarcanjo.sma/" target="_blank" rel="noreferrer" aria-label="Instagram">◎</a>
-            <a href="https://www.youtube.com/c/ParoquiaSaoMiguelArcanjo" target="_blank" rel="noreferrer" aria-label="YouTube">▶</a>
-            <a href="https://wa.me/5562982717499" target="_blank" rel="noreferrer" aria-label="WhatsApp">◔</a>
+            <a className="social-facebook" href="https://www.facebook.com/ParoqSaoMiguelArcanjo/" target="_blank" rel="noreferrer" aria-label="Facebook" title="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 8h3V4h-3c-3 0-5 2-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.6.4-1 1-1Z" /></svg>
+            </a>
+            <a className="social-instagram" href="https://www.instagram.com/paroquiasaomiguelarcanjo.sma/" target="_blank" rel="noreferrer" aria-label="Instagram" title="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="4" /><circle cx="12" cy="12" r="3.5" /><circle cx="17.2" cy="6.8" r=".8" fill="currentColor" stroke="none" /></svg>
+            </a>
+            <a className="social-youtube" href="https://www.youtube.com/c/ParoquiaSaoMiguelArcanjo" target="_blank" rel="noreferrer" aria-label="YouTube" title="YouTube">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.3 7.2a2.6 2.6 0 0 0-1.8-1.8C16.9 5 12 5 12 5s-4.9 0-6.5.4a2.6 2.6 0 0 0-1.8 1.8A27 27 0 0 0 3.3 12c0 1.6.1 3.2.4 4.8a2.6 2.6 0 0 0 1.8 1.8c1.6.4 6.5.4 6.5.4s4.9 0 6.5-.4a2.6 2.6 0 0 0 1.8-1.8c.3-1.6.4-3.2.4-4.8s-.1-3.2-.4-4.8Z" /><path d="m10 9 5 3-5 3V9Z" className="social-play" /></svg>
+            </a>
+            <a className="social-whatsapp" href="https://wa.me/5562982717499" target="_blank" rel="noreferrer" aria-label="WhatsApp" title="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.8 7.4L3.5 20l.9-4a8.5 8.5 0 1 1 16.1-4.3Z" /><path d="M9.2 8.2c.2-.3.4-.3.7-.3h.5c.2 0 .4.1.5.4l.6 1.5c.1.2.1.4-.1.6l-.5.7c.5 1 1.3 1.7 2.3 2.2l.7-.5c.2-.1.4-.2.6-.1l1.5.7c.2.1.3.3.3.5v.5c0 .3-.1.5-.3.7-.4.3-.8.5-1.3.5-1.1 0-2.5-.7-3.8-1.9-1.3-1.2-2.1-2.6-2.1-3.7 0-.5.2-1 .4-1.3Z" /></svg>
+            </a>
           </div>
         </div>
         <div className="shell footer-bottom">© 2026 Paróquia São Miguel Arcanjo. Todos os direitos reservados.</div>
