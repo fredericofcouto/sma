@@ -18,6 +18,7 @@ Apresentar a paróquia, os horários das missas, a agenda, os contatos e as leit
 
 - O acesso é público, sem autenticação.
 - As imagens originais devem ser preservadas.
+- O card Web Rádio São Miguel e seu botão de acesso abrem o canal https://www.youtube.com/@paroquiasaomiguelarcanjosma em outra guia.
 - A Liturgia Diária abre em outra guia, no próprio site da paróquia, com calendário para consultar as leituras por data.
 - A página inicial oferece um único botão de Liturgia Diária; as leituras e a identificação da fonte ficam na página dedicada.
 - As datas da liturgia acompanham o horário de Brasília.

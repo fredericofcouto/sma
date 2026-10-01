@@ -39,7 +39,8 @@ const events = [
     title: "Web Rádio São Miguel",
     text: "A Hora do Angelus, de segunda a sexta-feira, às 18h.",
     image: "https://i.imgur.com/ESfX1OX.png",
-    href: "/web-radio",
+    href: "https://www.youtube.com/@paroquiasaomiguelarcanjosma",
+    external: true,
   },
 ];
 
@@ -168,12 +169,19 @@ export default function Home() {
           </div>
           <div className="event-grid">
             {events.map((event) => (
-              <a className="event-card" href={event.href} key={event.title}>
+              <a
+                className="event-card"
+                href={event.href}
+                target={event.external ? "_blank" : undefined}
+                rel={event.external ? "noopener noreferrer" : undefined}
+                aria-label={event.external ? `${event.title}: abrir no YouTube (nova aba)` : undefined}
+                key={event.title}
+              >
                 <div className="event-image"><img src={event.image} alt="" /></div>
                 <div className="event-body">
                   <h3>{event.title}</h3>
                   <p>{event.text}</p>
-                  <span>Saiba mais <b aria-hidden="true">→</b></span>
+                  <span>{event.external ? "Abrir no YouTube" : <>Saiba mais <b aria-hidden="true">→</b></>}</span>
                 </div>
               </a>
             ))}

@@ -18,6 +18,10 @@ Site institucional da Paróquia São Miguel Arcanjo, em São Miguel do Araguaia 
 
 Aplicação React/Next com Vinext e Tailwind CSS, hospedada no Sites.
 
+## Web Rádio São Miguel
+
+O card Web Rádio São Miguel da página inicial abre diretamente o [canal da paróquia no YouTube](https://www.youtube.com/@paroquiasaomiguelarcanjosma) em outra guia. O botão de acesso da página `/web-radio` também aponta para esse canal.
+
 ## Liturgia Diária com calendário
 
 A página `/liturgia-diaria` mantém a identidade da paróquia e apresenta as leituras completas, com calendário, campo de data, dia anterior, próximo dia e retorno ao dia atual. O botão “Liturgia diária” da abertura acessa essa página em outra guia. A página inicial mantém somente esse acesso, e a identificação da fonte acompanha os textos na página de leituras. No celular, o calendário pode ser expandido sem ocupar o espaço inicial de leitura.
