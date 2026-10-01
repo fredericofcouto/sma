@@ -104,6 +104,7 @@ export default function Home() {
           <p className="hero-copy">Um lugar de oração, encontro e serviço para caminhar com Cristo em São Miguel do Araguaia.</p>
           <div className="hero-actions">
             <a className="button button-primary" href="#missas">Horários das missas <span aria-hidden="true">→</span></a>
+            <a className="button button-quiet button-liturgy" href="/liturgia-diaria" target="_blank" rel="noopener noreferrer">Liturgia diária<span className="sr-only"> (abre em nova aba)</span></a>
             <a className="button button-quiet" href="#contato">Fale conosco</a>
           </div>
         </div>

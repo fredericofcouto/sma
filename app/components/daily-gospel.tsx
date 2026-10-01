@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getLiturgyDate, getLiturgySourceUrl, type DailyGospel, type LiturgyDate } from "@/lib/liturgy";
+import { getLiturgyDate, type DailyGospel, type LiturgyDate } from "@/lib/liturgy";
 import bootstrap from "@/lib/liturgy-bootstrap.json";
 
 export default function DailyGospelBlock() {
@@ -66,7 +66,7 @@ export default function DailyGospelBlock() {
     };
   }, []);
 
-  const sourceUrl = date ? getLiturgySourceUrl(date) : "https://liturgia.cancaonova.com/pb/";
+  const readingUrl = date ? `/liturgia-diaria?data=${date.iso}#evangelho` : "/liturgia-diaria#evangelho";
 
   return (
     <section id="evangelho-do-dia" className="daily-gospel" aria-labelledby="daily-gospel-title">
@@ -84,12 +84,12 @@ export default function DailyGospelBlock() {
             </>
           ) : (
             <p className="daily-gospel-status">
-              {loading ? "Buscando o Evangelho de hoje…" : "O trecho está indisponível no momento. A leitura completa está disponível na Canção Nova."}
+              {loading ? "Buscando o Evangelho de hoje…" : "O trecho está indisponível no momento. Consulte as leituras na página de Liturgia Diária."}
             </p>
           )}
           <div className="daily-gospel-links">
-            <a className="daily-gospel-full" href={sourceUrl} target="_blank" rel="noopener noreferrer">
-              Ler Evangelho completo<span className="sr-only"> na Canção Nova (abre em nova aba)</span>
+            <a className="daily-gospel-full" href={readingUrl} target="_blank" rel="noopener noreferrer">
+              Ler Evangelho completo<span className="sr-only"> (abre em nova aba)</span>
             </a>
             <span className="daily-gospel-source">Fonte: Canção Nova</span>
           </div>
