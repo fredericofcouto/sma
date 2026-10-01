@@ -25,22 +25,6 @@ button { font: inherit; }
 @media (max-width: 720px) { .shell { width: min(100% - 32px, 1120px); }.header-inner { min-height: 67px; }.brand strong { font-size: 15px; }.brand small { font-size: 9px; }.menu-toggle { display: block; }.nav { position: absolute; top: 67px; left: 0; right: 0; display: none; padding: 16px; flex-direction: column; align-items: stretch; background: var(--paper); border-top: 1px solid var(--line); box-shadow: 0 14px 25px #18283a1c; }.nav-open { display: flex; }.nav a { padding: 8px 4px; }.nav-action { text-align: center; padding: 12px !important; }.hero { min-height: 565px; }.hero-shade { background: linear-gradient(90deg, rgba(5,18,31,.82), rgba(5,18,31,.50)); }.hero-content { padding: 95px 0; }.hero-copy { font-size: 17px; }.section { padding: 74px 0; }.intro-grid, .story-grid, .giving-inner, .contact-grid { grid-template-columns: 1fr; gap: 35px; }.story-image-wrap { order: 2; }.story-copy { order: 1; }.story-image-wrap img { min-height: 320px; }.section-heading { align-items: start; flex-direction: column; gap: 16px; margin-bottom: 32px; }.mass-row { grid-template-columns: 1fr; gap: 8px; }.mass-row ul { grid-template-columns: 1fr; gap: 8px; }.event-grid { grid-template-columns: 1fr; }.event-card { min-height: 0; }.event-image { height: 188px; }.contact-details { padding: 28px; }.map-wrap, .map-wrap iframe { min-height: 310px; }.footer-grid { align-items: flex-start; flex-direction: column; }.footer-bottom { padding-bottom: 24px; } }
 @media (max-width: 720px) { .detail-hero { padding: 50px 0 38px; }.detail-hero-grid { grid-template-columns: 1fr; gap: 28px; }.detail-hero-image { height: 190px; }.detail-content { padding: 52px 0 72px; }.detail-section h2 { font-size: 27px; } }
 
-.daily-gospel { padding: 46px 0; background: #fff; border-bottom: 1px solid var(--line); }
-.daily-gospel-grid { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 48px; align-items: start; }
-.daily-gospel-heading h2 { margin: 0 0 10px; color: var(--ink); font-size: clamp(29px, 3vw, 36px); line-height: 1.15; }
-.daily-gospel-heading time { display: block; color: #485969; font-size: 15px; line-height: 1.55; }
-.daily-gospel-celebration { max-width: 42ch; margin: 12px 0 0; color: #485969; font-size: 14px; line-height: 1.6; }
-.daily-gospel-reading h3 { margin: 0 0 10px; color: var(--ink); font-size: 16px; font-weight: 700; }
-.daily-gospel-reading blockquote { margin: 0; color: var(--ink-deep); font-family: Georgia, 'Times New Roman', serif; font-size: clamp(22px, 2.3vw, 28px); line-height: 1.45; }
-.daily-gospel-reading blockquote p { margin: 0; }
-.daily-gospel-status { min-height: 70px; margin: 0; color: #485969; font-size: 16px; line-height: 1.6; }
-.daily-gospel-links { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; margin-top: 18px; }
-.daily-gospel-full { display: inline-flex; align-items: center; min-height: 44px; color: var(--ink); font-size: 14px; font-weight: 700; text-decoration: underline; text-decoration-color: #8b6937; text-underline-offset: 5px; }
-.daily-gospel-full:hover { color: #3d5878; text-decoration-color: currentColor; }
-.daily-gospel-full:focus-visible { outline: 2px solid var(--ink); outline-offset: 5px; border-radius: 2px; }
-.daily-gospel-source { color: #485969; font-size: 14px; }
-@media (max-width: 720px) { .daily-gospel { padding: 32px 0; }.daily-gospel-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }.daily-gospel-links { gap: 6px 20px; }.daily-gospel-reading { min-width: 0; } }
-
 /* Redes sociais: marcas preenchidas, com o mesmo peso visual do YouTube. */
 .socials a.social-facebook svg .facebook-mark { fill: #1877f2; stroke: none; }
 .socials a.social-facebook svg .social-glyph { fill: #fff; stroke: none; }

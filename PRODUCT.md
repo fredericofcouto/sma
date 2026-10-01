@@ -19,7 +19,7 @@ Apresentar a paróquia, os horários das missas, a agenda, os contatos e as leit
 - O acesso é público, sem autenticação.
 - As imagens originais devem ser preservadas.
 - A Liturgia Diária abre em outra guia, no próprio site da paróquia, com calendário para consultar as leituras por data.
-- A página inicial mantém um pequeno bloco com a data e o Evangelho do dia.
+- A página inicial oferece um único botão de Liturgia Diária; as leituras e a identificação da fonte ficam na página dedicada.
 - As datas da liturgia acompanham o horário de Brasília.
 - A indisponibilidade da fonte não deve mostrar uma leitura de outra data como se fosse a selecionada.
 
@@ -29,4 +29,4 @@ Manter o nome da Paróquia São Miguel Arcanjo e o visual já aprovado no site. 
 
 ## Evidence on Hand
 
-Conteúdo e imagens existentes em `app/page.tsx`, páginas internas em `app/`, consulta do Evangelho em `lib/liturgy.ts` e documentação da Liturgia Diária API em https://github.com/Dancrf/liturgia-diaria/blob/main/docs/v2/README.md.
+Conteúdo e imagens existentes em `app/page.tsx`, páginas internas em `app/`, consulta das leituras em `lib/daily-readings.ts` e documentação da Liturgia Diária API em https://github.com/Dancrf/liturgia-diaria/blob/main/docs/v2/README.md.

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import DailyGospelBlock from "./components/daily-gospel";
 
 const masses = [
   {
@@ -109,8 +108,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <DailyGospelBlock />
 
       <section id="conteudo" className="intro section" aria-labelledby="intro-title">
         <div className="shell intro-grid">
