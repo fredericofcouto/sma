@@ -32,7 +32,7 @@ const events = [
   {
     title: "Avisos semanais",
     text: "Acompanhe os comunicados e a programação da nossa comunidade.",
-    image: "https://i.imgur.com/mDunjZK.png",
+    image: "/images/avisos-paroquiais.webp",
     href: "/avisos-semanais",
   },
   {
