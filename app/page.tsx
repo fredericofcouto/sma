@@ -26,7 +26,8 @@ const events = [
   {
     title: "Festa do Padroeiro",
     text: "Celebrações, devoção e convivência em honra a São Miguel Arcanjo.",
-    image: "https://i.imgur.com/bCNj9FO.jpg",
+    image: "/images/festa-padroeiro.webp",
+    imageClassName: "event-image-patron",
     href: "/festa-padroeiro",
   },
   {

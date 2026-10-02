@@ -17,9 +17,10 @@ Apresentar a paróquia, os horários das missas, a agenda, os contatos e as leit
 ## Capabilities and Constraints
 
 - O acesso é público, sem autenticação.
-- As imagens originais devem ser preservadas, com a substituição autorizada da arte de Avisos semanais pela imagem de Avisos Paroquiais enviada pelo usuário.
+- As imagens originais devem ser preservadas, com as substituições autorizadas das artes de Avisos semanais e Festa do Padroeiro pelas imagens enviadas pelo usuário.
 - A arte de Avisos Paroquiais aparece inteira, sem corte ou distorção, no card e na página de avisos. Os espaços das imagens da agenda acompanham a proporção 3:2 da arte, sem encolher dentro dos cards, mantendo os títulos e botões alinhados.
 - A imagem da página interna de Avisos semanais usa sua proporção natural, sem a moldura branca dos logos. Esse ajuste é exclusivo da página interna e preserva o card da página inicial.
+- A Festa do Padroeiro usa a arte de São Miguel Arcanjo com a Igreja Matriz enviada pelo usuário, no card e na página interna, seguindo o mesmo padrão dos avisos: imagem inteira, proporcional e sem moldura branca, com os cards alinhados.
 - O card Web Rádio São Miguel e seu botão de acesso abrem o canal https://www.youtube.com/@paroquiasaomiguelarcanjosma em outra guia.
 - A Liturgia Diária abre em outra guia, no próprio site da paróquia, com calendário para consultar as leituras por data.
 - A página inicial oferece um único botão de Liturgia Diária; as leituras e a identificação da fonte ficam na página dedicada.

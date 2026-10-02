@@ -136,3 +136,8 @@ button { font: inherit; }
 
 /* Arte da página de avisos: proporção natural, sem a moldura dos logos. */
 .detail-hero-image.detail-notices-artwork { display: block; height: auto; aspect-ratio: 3 / 2; padding: 0; background: transparent; object-fit: contain; }
+
+/* Festa do Padroeiro: o mesmo enquadramento proporcional dos avisos. */
+.event-image-patron { padding: 0; }
+.event-image-patron img { object-fit: contain; object-position: center; }
+.detail-hero-image.detail-patron-artwork { display: block; height: auto; aspect-ratio: 3 / 2; padding: 0; background: transparent; object-fit: contain; }
