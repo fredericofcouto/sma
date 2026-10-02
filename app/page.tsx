@@ -34,7 +34,7 @@ const events = [
   {
     title: "Avisos semanais",
     text: "Acompanhe os comunicados e a programação da nossa comunidade.",
-    image: "/images/avisos-paroquiais.webp",
+    image: "/images/avisos-paroquiais-sao-miguel-arcanjo.webp",
     imageClassName: "event-image-notices",
     href: "/avisos-semanais",
   },
