@@ -33,6 +33,7 @@ const events = [
     title: "Avisos semanais",
     text: "Acompanhe os comunicados e a programação da nossa comunidade.",
     image: "/images/avisos-paroquiais.webp",
+    imageClassName: "event-image-notices",
     href: "/avisos-semanais",
   },
   {
@@ -177,7 +178,7 @@ export default function Home() {
                 aria-label={event.external ? `${event.title}: abrir no YouTube (nova aba)` : undefined}
                 key={event.title}
               >
-                <div className="event-image"><img src={event.image} alt="" /></div>
+                <div className={event.imageClassName ? `event-image ${event.imageClassName}` : "event-image"}><img src={event.image} alt="" /></div>
                 <div className="event-body">
                   <h3>{event.title}</h3>
                   <p>{event.text}</p>
