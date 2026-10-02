@@ -20,7 +20,8 @@ const events = [
   {
     title: "Catequese",
     text: "Caminhos de formação e encontro para crianças, jovens e famílias.",
-    image: "https://i.imgur.com/Yl8rUjc.jpg",
+    image: "/images/catequese-sao-miguel-arcanjo.webp",
+    imageClassName: "event-image-catechesis",
     href: "/catequese",
   },
   {

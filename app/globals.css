@@ -145,3 +145,8 @@ button { font: inherit; }
 /* Web Rádio: arte completa no mesmo padrão dos cards de avisos e padroeiro. */
 .event-image-radio { padding: 0; }
 .event-image-radio img { object-fit: contain; object-position: center; }
+
+/* Catequese: arte inteira e proporcional no card e na página interna. */
+.event-image-catechesis { padding: 0; }
+.event-image-catechesis img { object-fit: contain; object-position: center; }
+.detail-hero-image.detail-catechesis-artwork { display: block; height: auto; aspect-ratio: 3 / 2; padding: 0; background: transparent; object-fit: contain; }

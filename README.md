@@ -18,6 +18,10 @@ Site institucional da Paróquia São Miguel Arcanjo, em São Miguel do Araguaia 
 
 Aplicação React/Next com Vinext e Tailwind CSS, hospedada no Sites.
 
+## Catequese
+
+A arte da Catequese enviada pelo usuário aparece inteira no card e na página `/catequese`, na proporção 3:2 e sem moldura branca, seguindo o padrão dos cards de Avisos semanais e Festa do Padroeiro.
+
 ## Web Rádio São Miguel
 
 O card Web Rádio São Miguel da página inicial abre diretamente o [canal da paróquia no YouTube](https://www.youtube.com/@paroquiasaomiguelarcanjosma) em outra guia. O botão de acesso da página `/web-radio` também aponta para esse canal.
