@@ -133,3 +133,6 @@ button { font: inherit; }
   #liturgy-calendar-body { display: none; padding: 4px 22px 22px; }.calendar-open #liturgy-calendar-body { display: block; }
   .liturgy-provider { margin-top: 10px; }
 }
+
+/* Arte da página de avisos: proporção natural, sem a moldura dos logos. */
+.detail-hero-image.detail-notices-artwork { display: block; height: auto; aspect-ratio: 3 / 2; padding: 0; background: transparent; object-fit: contain; }
