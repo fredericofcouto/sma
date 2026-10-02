@@ -141,3 +141,7 @@ button { font: inherit; }
 .event-image-patron { padding: 0; }
 .event-image-patron img { object-fit: contain; object-position: center; }
 .detail-hero-image.detail-patron-artwork { display: block; height: auto; aspect-ratio: 3 / 2; padding: 0; background: transparent; object-fit: contain; }
+
+/* Web Rádio: arte completa no mesmo padrão dos cards de avisos e padroeiro. */
+.event-image-radio { padding: 0; }
+.event-image-radio img { object-fit: contain; object-position: center; }

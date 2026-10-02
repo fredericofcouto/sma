@@ -40,7 +40,8 @@ const events = [
   {
     title: "Web Rádio São Miguel",
     text: "A Hora do Angelus, de segunda a sexta-feira, às 18h.",
-    image: "https://i.imgur.com/ESfX1OX.png",
+    image: "/images/web-radio-sao-miguel-arcanjo.webp",
+    imageClassName: "event-image-radio",
     href: "https://www.youtube.com/@paroquiasaomiguelarcanjosma",
     external: true,
   },
