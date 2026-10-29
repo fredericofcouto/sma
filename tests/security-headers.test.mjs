@@ -14,12 +14,13 @@ test("adds security headers without changing the response", async () => {
   assert.equal(response.headers.get("cache-control"), "public, max-age=60");
   assert.equal(response.headers.get("x-content-type-options"), "nosniff");
   assert.equal(response.headers.get("referrer-policy"), "strict-origin-when-cross-origin");
-  assert.equal(response.headers.get("permissions-policy"), "camera=(), microphone=(), geolocation=()");
+  assert.equal(response.headers.get("permissions-policy"), "camera=(), microphone=(), geolocation=(), payment=(), usb=()");
   assert.equal(response.headers.get("x-frame-options"), "DENY");
   assert.equal(
     response.headers.get("content-security-policy"),
-    "frame-ancestors 'none'; base-uri 'self'; object-src 'none'",
+    "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://i.imgur.com; font-src 'self' data:; connect-src 'self'; frame-src https://www.google.com https://maps.google.com",
   );
+  assert.equal(response.headers.get("cross-origin-opener-policy"), "same-origin");
   assert.equal(response.headers.get("strict-transport-security"), "max-age=31536000");
 });
 
